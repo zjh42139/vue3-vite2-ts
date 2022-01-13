@@ -23,6 +23,7 @@ export default defineConfig({
     prefix: 'w:',
   },
   alias: {
+    center: 'flex justify-center items-center',
     hstack: 'flex items-center',
     vstack: 'flex flex-col',
     icon: 'w-6 h-6 fill-current',
